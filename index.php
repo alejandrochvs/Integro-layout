@@ -1,7 +1,389 @@
-<?php
-    /*Main template File*/
-    get_header();
-?>
-<?php
-    get_footer();
-?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SOLANA</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet"> </head>
+
+<body>
+    <section class="col-xs-12 container main">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active"> <img src="assets/slider-bg-1.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <h2>SIT LECTUS AMET</h2>
+                        <h4>CRAS JUSTO ODIO,DAPIBUS AC FACILISIS</h4>
+                        <div class="col-xs-2 btn">
+                            <div class="col-xs-10 col-sm-6 left">
+                                <h6>READ MORE</h6></div>
+                            <div class="col-xs-2 col-sm-2 right">
+                                <h6><i class="fa fa-arrow-right" aria-hidden="true"></h6></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item"> <img src="assets/slider-bg-2.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <h2>SIT LECTUS AMET</h2>
+                        <h4>CRAS JUSTO ODIO,DAPIBUS AC FACILISIS</h4>
+                        <div class="btn col-xs-2">
+                            <div class="col-xs-10 col-sm-6 left">
+                                <h6>READ MORE</h6></div>
+                            <div class="col-xs-2 col-sm-2 right">
+                                <h6><i class="fa fa-arrow-right" aria-hidden="true"></h6></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 landPage">
+            <div class="col-xs-12 container land">
+                <nav class="col-xs-12 col-sm-10 col-sm-offset-1 navbar navbar-default">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="#"><h6><img src="assets/logo-retina.png"/></h6></a> </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#"><h6>HOME</h6><span class="sr-only">(current)</span></a></li>
+                                <li><a href="#"><h6>FEATURES</h6></a></li>
+                                <li><a href="#"><h6>PORTFOLIO</h6></a></li>
+                                <li><a href="#"><h6>BLOG</h6></a></li>
+                                <li><a href="#"><h6>CONTACT</h6></a></li>
+                                <li><a href="#"><h6>PURCHASE</h6></a></li>
+                                <li><a href="#"><h6><i class="fa fa-search" aria-hidden="true"></i></h6></a></li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+            </div>
+            <div class="col-xs-2 col-xs-offset-1 container controller">
+                <div class="col-xs-4 col-sm-2 btn" aria-hidden="true" href="#carousel-example-generic" role="button" data-slide="prev"><i class="fa fa-chevron-left"></i></div>
+                <div class="col-xs-4 col-sm-2 btn" aria-hidden="true" href="#carousel-example-generic" role="button" data-slide="next"><i class="fa fa-chevron-right"></i></div>
+            </div>
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 services">
+                <div class="col-xs-6 col-sm-3 box">1</div>
+                <div class="col-xs-6 col-sm-3 box">2</div>
+                <div class="col-xs-6 col-sm-3 box">3</div>
+                <div class="col-xs-6 col-sm-3 box">4</div>
+            </div>
+        </div>
+        <div class="col-xs-12 divider"></div>
+        <div class="col-xs-12 container purchase">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 container-fluid">
+                <div class="col-xs-12 col-sm-2 icon">
+                    <div class="col-xs-12 img"></div>
+                </div>
+                <div class="col-xs-12 col-sm-6 description">
+                    <h5><b>Solana </b>is a responsive multipurpose theme</h5>
+                    <p>
+                        <h6>Easy customizable, Retina icons,clean design,cross-browser compatible, unlimited colors and ample layout options</h6> </p>
+                </div>
+                <div class="col-xs-12 col-sm-4 btn">
+                    <h4><b>PURCHASE IT</b></h4> </div>
+            </div>
+        </div>
+        <div class="col-xs-12 divider"></div>
+        <div class="col-xs-12 portfolio">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 container-fluid">
+                <div class="col-xs-12 col-sm-3 controls">
+                    <h3 class="col-xs-12">THIS IS THE LIST OF OUR RECENT <b>WORKS</b></h3>
+                    <div class=" col-xs-12 col-sm-8 col-sm-offset-2 carousel-controls">
+                        <div class="col-xs-1 col-xs-offset-5 left" href="#portfolio" role="button" data-slide="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+                        <div class="col-xs-1 right" href="#portfolio" role="button" data-slide="next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-9 carousel">
+                    <div id="portfolio" class="carousel slide" data-ride="carousel">
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="col-xs-12 col-sm-4 item-container">
+                                    <div class="col-xs-12 img"><img src="assets/port-2-1.jpg" alt=""></im>
+                                    </div>
+                                    <div class="col-xs-12 titles">
+                                        <h5><b>Lorem</b> Ipsum</h5>
+                                        <h6><i>Photography</i></h6> </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 item-container">
+                                    <div class="col-xs-12 img"><img src="assets/port-2-2.jpg" alt=""></im>
+                                    </div>
+                                    <div class="col-xs-12 titles">
+                                        <h5><b>Craes</b> Nustro</h5>
+                                        <h6><i>Illustration</i></h6> </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 item-container">
+                                    <div class="col-xs-12 img"><img src="assets/port-2-3.jpg" alt=""></im>
+                                    </div>
+                                    <div class="col-xs-12 titles">
+                                        <h5><b>Sed</b> Lectus</h5>
+                                        <h6><i>Web design</i></h6> </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-12 col-sm-4 item-container">
+                                    <div class="col-xs-12 img"><img src="assets/port-2-1.jpg" alt=""></im>
+                                    </div>
+                                    <div class="col-xs-12 titles">
+                                        <h5><b>Lorem</b> Ipsum</h5>
+                                        <h6><i>Photography</i></h6> </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 item-container">
+                                    <div class="col-xs-12 img"><img src="assets/port-2-2.jpg" alt=""></im>
+                                    </div>
+                                    <div class="col-xs-12 titles">
+                                        <h5><b>Craes</b> Nustro</h5>
+                                        <h6><i>Illustration</i></h6> </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 item-container">
+                                    <div class="col-xs-12 img"><img src="assets/port-2-3.jpg" alt=""></im>
+                                    </div>
+                                    <div class="col-xs-12 titles">
+                                        <h5><b>Sed</b> Lectus</h5>
+                                        <h6><i>Web design</i></h6> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 divider"></div>
+        <div class="col-xs-12 features">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 container-fluid">
+                <div class="col-xs-12 col-sm-5 features-img"></div>
+                <div class="col-xs-6 col-sm-4 features-title">
+                    <h3>Fully <b>Responsive</b></h3></div>
+                <div class="col-xs-6 col-sm-3 features-list">
+                    <ul class="col-xs-12">
+                        <li class="col-xs-12">
+                            <div class="img col-xs-4"></div>
+                            <h6 class="col-xs-8">Fully Responsive Design</h6></li>
+                        <li class="col-xs-12">
+                            <div class="img col-xs-4"></div>
+                            <h6 class="col-xs-8">Retina Ready</h6></li>
+                        <li class="col-xs-12">
+                            <div class="img col-xs-4"></div>
+                            <h6 class="col-xs-8">SEO Optimized</h6></li>
+                        <li class="col-xs-12">
+                            <div class="img col-xs-4"></div>
+                            <h6 class="col-xs-8">Easy to Customize</h6></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 divider"></div>
+        <div class="col-xs-12 news">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 container-fluid">
+                <div class="col-xs-12 col-sm-3 controls">
+                    <h3 class="col-xs-12">STAY TUNED READ OUR <b>NEWS</b></h3>
+                    <div class=" col-xs-12 col-sm-8 col-sm-offset-2 carousel-controls">
+                        <div class="col-xs-1 col-xs-offset-5 left" href="#NEWS" role="button" data-slide="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+                        <div class="col-xs-1 right" href="#NEWS" role="button" data-slide="next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-9 carousel">
+                    <div id="NEWS" class="carousel slide" data-ride="carousel">
+                        <!-- Wrapper for carousel items -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="col-xs-12 col-sm-4 item-container">
+                                    <div class="col-xs-12 img"></div>
+                                    <div class="col-xs-12 titles">
+                                        <h5><b>Lorem</b> Ipsum</h5>
+                                        <h6>10 Okt 2013 | 7 Comments</h6> </div>
+                                    <div class="col-xs-12 content">
+                                        <h6>Praesent blandit turpis leo, ut iaculis arcu. pas accumsam tristique massa, in auctor at hendredit id. Sed aliquam a ongue inar</h6></div>
+                                    <div class="col-xs-2 col-xs-offset-10 button"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 item-container">
+                                    <div class="col-xs-12 img"></div>
+                                    <div class="col-xs-12 titles">
+                                        <h5><b>Lorem</b> Ipsum</h5>
+                                        <h6>10 Okt 2013 | 7 Comments</h6> </div>
+                                    <div class="col-xs-12 content">
+                                        <h6>Praesent blandit turpis leo, ut iaculis arcu. pas accumsam tristique massa, in auctor at hendredit id. Sed aliquam a ongue inar</h6></div>
+                                    <div class="col-xs-2 col-xs-offset-10 button"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 item-container">
+                                    <div class="col-xs-12 img"></div>
+                                    <div class="col-xs-12 titles">
+                                        <h5><b>Lorem</b> Ipsum</h5>
+                                        <h6>10 Okt 2013 | 7 Comments</h6> </div>
+                                    <div class="col-xs-12 content">
+                                        <h6>Praesent blandit turpis leo, ut iaculis arcu. pas accumsam tristique massa, in auctor at hendredit id. Sed aliquam a ongue inar</h6></div>
+                                    <div class="col-xs-2 col-xs-offset-10 button"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-xs-12 col-sm-4 item-container">
+                                    <div class="col-xs-12 img"></div>
+                                    <div class="col-xs-12 titles">
+                                        <h5><b>Lorem</b> Ipsum</h5>
+                                        <h6>10 Okt 2013 | 7 Comments</h6> </div>
+                                    <div class="col-xs-12 content">
+                                        <h6>Praesent blandit turpis leo, ut iaculis arcu. pas accumsam tristique massa, in auctor at hendredit id. Sed aliquam a ongue inar</h6></div>
+                                    <div class="col-xs-2 col-xs-offset-10 button"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 item-container">
+                                    <div class="col-xs-12 img"></div>
+                                    <div class="col-xs-12 titles">
+                                        <h5><b>Lorem</b> Ipsum</h5>
+                                        <h6>10 Okt 2013 | 7 Comments</h6> </div>
+                                    <div class="col-xs-12 content">
+                                        <h6>Praesent blandit turpis leo, ut iaculis arcu. pas accumsam tristique massa, in auctor at hendredit id. Sed aliquam a ongue inar</h6></div>
+                                    <div class="col-xs-2 col-xs-offset-10 button"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 item-container">
+                                    <div class="col-xs-12 img"></div>
+                                    <div class="col-xs-12 titles">
+                                        <h5><b>Lorem</b> Ipsum</h5>
+                                        <h6>10 Okt 2013 | 7 Comments</h6> </div>
+                                    <div class="col-xs-12 content">
+                                        <h6>Praesent blandit turpis leo, ut iaculis arcu. pas accumsam tristique massa, in auctor at hendredit id. Sed aliquam a ongue inar</h6></div>
+                                    <div class="col-xs-2 col-xs-offset-10 button"><i class="fa fa-arrow-right" aria-hidden="true"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 divider"></div>
+        <div class="col-xs-12 newsletter">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 container-fluid">
+                <div class="col-xs-12 col-sm-7 left">
+                    <div class="col-xs-2 col-sm-2 icon"></div>
+                    <div class="col-xs-4 col-sm-4 title">
+                        <h5><b>NEWS</b>LETTER</h5></div>
+                    <div class="col-xs-6 col-sm-6 subtitle">
+                        <h6>Stay up to date with the latest news and other stuffs, Sign up today!</h6></div>
+                </div>
+                <div class="col-xs-12 col-sm-5 right">
+                    <div class="col-xs-8 col-sm-7 email">
+                        <h5>Your e-mail here...</h5></div>
+                    <div class="col-xs-4 col-sm-5 sign-up">
+                        <h4>SIGN UP</h4></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 sponsors">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 container-fluid"> <img src="assets/logo1.png" class="col-xs-offset-1 col-xs-2" /> <img src="assets/logo2.png" class="col-xs-2" /> <img src="assets/logo3.png" class="col-xs-2" /> <img src="assets/logo4.png" class="col-xs-2" /> <img src="assets/logo5.png" class="col-xs-2" /> </div>
+        </div>
+    </section>
+    <section class="container col-xs-12 footer">
+        <div class="col-xs-12 solana">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 container-fluid">
+                <div class="col-xs-6 col-sm-3 left"><img src="assets/logo-retina.png" class="col-xs-12"></div>
+                <div class="col-xs-6 col-sm-9 right">
+                    <h3>WE PROVIDE DIGITAL <b>SERVICES</b>
+                    </h3> </div>
+            </div>
+        </div>
+        <div class="container col-xs-12 footer-social">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 container-fluid">
+                <div class="col-xs-12 col-sm-4 social">
+                    <div class="col-xs-12 hello">
+                        <div class="col-xs-12 col-sm-9">
+                            <h3>SAY <b>HELLO</b></h3>
+                            <h6>WE'D LOVE HEARING FROM YOU</h6> </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-9 icon-container">
+                        <div class="col-xs-4 icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                        <div class="col-xs-4 icon"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+                        <div class="col-xs-4 icon"><i class="fa fa-skype" aria-hidden="true"></i></div>
+                        <div class="col-xs-4 icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                        <div class="col-xs-4 icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                        <div class="col-xs-4 icon"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 latest">
+                    <div class="col-xs-12 title">
+                        <p class="col-xs-5">LATEST <b>POSTS</b></p>
+                    </div>
+                    <div class="col-xs-12 block">
+                        <div class="col-xs-2 icon"><i class="fa fa-picture-o" aria-hidden="true"></i></i>
+                        </div>
+                        <div class="col-xs-10 text">
+                            <h4>Lorem Ipsum</h4>
+                            <h6><i>July 10,2013</i>
+                            </h6></div>
+                    </div>
+                    <div class="col-xs-12 block">
+                        <div class="col-xs-2 icon"><i class="fa fa-file-text-o" aria-hidden="true"></i></i>
+                        </div>
+                        <div class="col-xs-10 text">
+                            <h4>Sec Lectus</h4>
+                            <h6><i>July 10,2013</i>
+                            </h6></div>
+                    </div>
+                    <div class="col-xs-12 block">
+                        <div class="col-xs-2 icon"><i class="fa fa-video-camera" aria-hidden="true"></i></div>
+                        <div class="col-xs-10 text">
+                            <h4>Video post</h4>
+                            <h6><i>July 10,2013</i>
+                            </h6></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 contact">
+                    <div class="col-xs-12 title">
+                        <p class="col-xs-5">CONTACT <b>INFO</b></p>
+                    </div>
+                    <div class="col-xs-12 block">
+                        <div class="col-xs-2 icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                        <div class="col-xs-10 text">
+                            <h4>Lorem Ipsum</h4>
+                            <h6>123 Aolsom Ave,Suite 600, New York
+                            </h6></div>
+                    </div>
+                    <div class="col-xs-12 block">
+                        <div class="col-xs-2 icon"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+                        <div class="col-xs-10 text">
+                            <h4>(123)456-7890</h4>
+                            <h6>(123)0987-654
+                            </h6></div>
+                    </div>
+                    <div class="col-xs-12 block">
+                        <div class="col-xs-2 icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                        <div class="col-xs-10 text">
+                            <h4>email@gmail.com</h4>
+                            <h6>.</h6></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 container footer-menu">
+            <div class="col-xs-12 col-sm-10 col-sm-offset-1 container-fluid">
+                <div class="col-xs-12 col-sm-9 menu">
+                    <div class="col-xs-4 col-sm-2">
+                        <h5>HOME</h5> </div>
+                    <div class="col-xs-4 col-sm-2">
+                        <h5>FEATURES</h5> </div>
+                    <div class="col-xs-4 col-sm-2">
+                        <h5>PORTFOLIO</h5> </div>
+                    <div class="col-xs-4 col-sm-2">
+                        <h5>BLOG</h5> </div>
+                    <div class="col-xs-4 col-sm-2">
+                        <h5>CONTACT</h5> </div>
+                    <div class="col-xs-4 col-sm-2">
+                        <h5>PURCHASE</h5> </div>
+                </div>
+                <div class="col-xs-12 col-sm-3 copyright">
+                    <h6 class="col-xs-12">© Solana - Build with Passion by AbcGomel</h6></div>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/1a5b91f880.js"></script>
+</body>
